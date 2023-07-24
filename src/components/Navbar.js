@@ -10,7 +10,7 @@ export default function Navbar() {
                 <NavBarIcon navRoute={`/old`} icon={<CgProfile size={"32"} />}></NavBarIcon>
                 <NavBarIcon navRoute={`/old`} icon={<LiaHomeSolid size={"32"} />}></NavBarIcon>
             </nav>
-            <div className=" w-full fixed justify-center align-middle text-center pt-6 text-4xl">
+            <div className=" w-full fixed justify-center align-middle text-center pt-6 text-4xl pointer-events-none">
                 <h1>Chess Royale!</h1>
             </div>
         </div>
