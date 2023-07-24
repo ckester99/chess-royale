@@ -1,7 +1,9 @@
+import ChessBoard from "@/components/ChessBoard";
+
 export default function Home() {
     return (
         <main>
-            <h1>Hello World!</h1>
+            <h1>hello, world!</h1>
         </main>
     );
 }

@@ -4,12 +4,15 @@ import { CgProfile } from "react-icons/cg";
 
 export default function Navbar() {
     return (
-        <div className="h-16">
+        <div className="h-16 w-screen">
             <nav className=" bg-zinc-800 text-green-600 fixed t-0 p-4 w-screen flex flex-row justify-end gap-3.5">
                 <NavBarIcon navRoute={`/old`} icon={<FaRegChessKnight size={"32"} />}></NavBarIcon>
                 <NavBarIcon navRoute={`/old`} icon={<CgProfile size={"32"} />}></NavBarIcon>
                 <NavBarIcon navRoute={`/old`} icon={<LiaHomeSolid size={"32"} />}></NavBarIcon>
             </nav>
+            <div className=" w-full fixed justify-center align-middle text-center pt-6 text-4xl">
+                <h1>Chess Royale!</h1>
+            </div>
         </div>
     );
 }
