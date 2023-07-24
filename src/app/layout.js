@@ -12,12 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="stylesheet" href="/styles/chessboard-1.0.0.css"></link>
+            </head>
             <body className={`${inter.className} bg-slate-800 text-slate-100`}>
                 <Navbar></Navbar>
                 <div className="container mx-auto p-4 pt-12">{children}</div>
-
-                <script src="../scripts/jquery.min.js"></script>
-                <script src="../scripts/chessboard-1.0.0.min.js"></script>
             </body>
         </html>
     );
